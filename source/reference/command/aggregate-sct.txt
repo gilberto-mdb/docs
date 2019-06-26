@@ -68,7 +68,7 @@ Returns a :term:`cursor`. Refer to  <command output link> for more information.
 Required Permissions
 --------------------
 
-If your MonogoDB deployment enforces :ref:`authorization`, the user
+If your MongoDB deployment enforces :ref:`authorization`, the user
 executing the :dbcommand:`aggregate` command requires the
 :authaction:`find` privilege on the collection against which you are
 querying. The :authrole:`read` built-in role provides the requisite
